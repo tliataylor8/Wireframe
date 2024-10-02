@@ -1,0 +1,55 @@
+
+.container{
+    display: flex;
+    flex-direction: column;
+    font-family: ;
+    width: 100%;
+    height: 100%;
+}
+
+
+.top-bar{
+    background-color: navy;
+    color: aliceblue;
+    justify-content: space-between;
+    padding-left: 80%;
+}
+
+.header{
+    background-image: url("https://images.pexels.com/photos/28487798/pexels-photo-28487798/free-photo-of-sleek-workspace-with-coffee-and-laptop.jpeg?auto=compress&cs=tinysrgb&w=800");
+    font-size: large;
+}
+
+.aboutme-title{
+    
+}
+
+.aboutme-image{
+
+}
+
+.aboutme-summary{
+    flex-wrap: wrap;
+}
+
+.myprojects-title{
+    
+}
+
+.myprojects-images img{
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+}
+
+.myprojects-images {
+    display: block;
+}
+
+#car-row1{
+    margin-bottom: 10.00001px;
+}
+
+#car-row2{
+
+}
