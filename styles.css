@@ -1,55 +1,116 @@
 
-.container{
-    display: flex;
-    flex-direction: column;
-    font-family: ;
-    width: 100%;
-    height: 100%;
-}
-
-
-.top-bar{
-    background-color: navy;
-    color: aliceblue;
-    justify-content: space-between;
-    padding-left: 80%;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', 'sans-serif';
+    color: white;
 }
 
 .header{
-    background-image: url("https://images.pexels.com/photos/28487798/pexels-photo-28487798/free-photo-of-sleek-workspace-with-coffee-and-laptop.jpeg?auto=compress&cs=tinysrgb&w=800");
-    font-size: large;
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://images.pexels.com/photos/14089012/pexels-photo-14089012.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+    background-size: cover;
+    background-position: center;
 }
 
-.aboutme-title{
-    
+/* navbar white */
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f8f9fa;
+    padding: 0.5rem 1rem;
+    border-bottom: 1px solid #ddd;
 }
 
-.aboutme-image{
+/* didn't work */
+/* .navbar navbar-inverse navbar-fixed-top{
+    background-color: transparent;
+} */
 
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+    /* z-index: 1000; */
+    padding: 0.5rem 0;
+    border-radius: 0.25rem;
 }
 
-.aboutme-summary{
+
+
+/* This was for the green search button in bootstrap in header */
+/* .btn {
+    padding: 0.5rem 1rem;
+    border: 1px solid #28a745;
+    background-color: #28a745;
+    color: white;
+    border-radius: 0.25rem;
+    cursor: pointer;
+} */
+
+/* For the NAVBAR V2 I think */
+/* .show{
+    display: block;
+} */
+
+.container h1 {
+    display: flex;
+    justify-content: center;
+    color: black; 
+    display: block; 
+}
+
+.search-bar{
+ background: #fff;
+ width: 70%;
+ margin: 30px auto;
+ padding: 6px 10px 6px 30px;
+ border-radius: 50px;
+}
+
+label {
+    color: black; 
+    display: block; 
+}
+
+.search-bar form{
+    display: flex;
+    align-items: center;
     flex-wrap: wrap;
 }
 
-.myprojects-title{
-    
-}
-
-.myprojects-images img{
-    width: 200px;
-    height: 200px;
-    margin: 10px;
-}
-
-.myprojects-images {
+.search-bar form input{
     display: block;
+    border: 0;
+    outline: black;
+    background: transparent;
 }
 
-#car-row1{
-    margin-bottom: 10.00001px;
+.search-bar form button{
+    background: #7ba878;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    border: 0;
+    outline: none;
+    cursor: pointer;
 }
 
-#car-row2{
+.search-bar form button img{
 
+}
+
+.location-input{
+    flex: 1;
+}
+
+.search-bar form label{
+    font-weight: 200;
 }
