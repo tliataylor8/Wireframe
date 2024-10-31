@@ -8,11 +8,7 @@
 }
 
 .header{
-    min-height: 100vh;
-    width: 100%;
-    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://images.pexels.com/photos/14089012/pexels-photo-14089012.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
-    background-size: cover;
-    background-position: center;
+    
 }
 
 /* navbar white */
@@ -43,6 +39,17 @@
     border-radius: 0.25rem;
 }
 
+.bkgrnd-image{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://images.pexels.com/photos/14089012/pexels-photo-14089012.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+    background-size: cover;
+    background-position: center;
+}
+
+.container{
+
+}
 
 
 /* This was for the green search button in bootstrap in header */
